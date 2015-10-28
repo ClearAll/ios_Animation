@@ -112,7 +112,7 @@ int const kOutsideRectSize = 90;
     CGPoint pointC7 = CGPointMake(pointD.x, self.movePoint == POINT_D ? outsideRectPosition.y - offset + movedDistance : outsideRectPosition.y - offset);
     CGPoint pointC8 = CGPointMake(outsideRectPosition.x - offset, pointA.y);
     
-    //!!!: 这里如果使用UIKit
+    //!!!: 这里如果使用UIKit 无法获取上下文
     //外接矩形
     UIBezierPath *rectPath = [UIBezierPath bezierPathWithRect:self.outsideRect];
 //    [rectPath setLineWidth:1];
