@@ -15,6 +15,8 @@
 		2FFB6A5C1BE0A3B7008B02C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFB6A5A1BE0A3B7008B02C3 /* LaunchScreen.storyboard */; };
 		2FFB6A671BE0A3B7008B02C3 /* GooeySlideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB6A661BE0A3B7008B02C3 /* GooeySlideTests.m */; };
 		2FFB6A721BE0A3B7008B02C3 /* GooeySlideUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB6A711BE0A3B7008B02C3 /* GooeySlideUITests.m */; };
+		2FFB6A811BE0A5A5008B02C3 /* SlideMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB6A801BE0A5A5008B02C3 /* SlideMenuButton.m */; };
+		2FFB6A841BE0ACDB008B02C3 /* GooeySlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB6A831BE0ACDB008B02C3 /* GooeySlideMenu.m */; };
 		E4BD96494DEF3A40F99DB908 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FAB6D160CB15DE77278F47 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,10 @@
 		2FFB6A6D1BE0A3B7008B02C3 /* GooeySlideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooeySlideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FFB6A711BE0A3B7008B02C3 /* GooeySlideUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooeySlideUITests.m; sourceTree = "<group>"; };
 		2FFB6A731BE0A3B7008B02C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FFB6A7F1BE0A5A5008B02C3 /* SlideMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuButton.h; sourceTree = "<group>"; };
+		2FFB6A801BE0A5A5008B02C3 /* SlideMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideMenuButton.m; sourceTree = "<group>"; };
+		2FFB6A821BE0ACDB008B02C3 /* GooeySlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooeySlideMenu.h; sourceTree = "<group>"; };
+		2FFB6A831BE0ACDB008B02C3 /* GooeySlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooeySlideMenu.m; sourceTree = "<group>"; };
 		9D1C379E9E0AA21692F9EDDA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E0FAB6D160CB15DE77278F47 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -112,6 +118,10 @@
 				2FFB6A501BE0A3B7008B02C3 /* AppDelegate.m */,
 				2FFB6A521BE0A3B7008B02C3 /* ViewController.h */,
 				2FFB6A531BE0A3B7008B02C3 /* ViewController.m */,
+				2FFB6A7F1BE0A5A5008B02C3 /* SlideMenuButton.h */,
+				2FFB6A801BE0A5A5008B02C3 /* SlideMenuButton.m */,
+				2FFB6A821BE0ACDB008B02C3 /* GooeySlideMenu.h */,
+				2FFB6A831BE0ACDB008B02C3 /* GooeySlideMenu.m */,
 				2FFB6A551BE0A3B7008B02C3 /* Main.storyboard */,
 				2FFB6A581BE0A3B7008B02C3 /* Assets.xcassets */,
 				2FFB6A5A1BE0A3B7008B02C3 /* LaunchScreen.storyboard */,
@@ -348,7 +358,9 @@
 			files = (
 				2FFB6A541BE0A3B7008B02C3 /* ViewController.m in Sources */,
 				2FFB6A511BE0A3B7008B02C3 /* AppDelegate.m in Sources */,
+				2FFB6A811BE0A5A5008B02C3 /* SlideMenuButton.m in Sources */,
 				2FFB6A4E1BE0A3B7008B02C3 /* main.m in Sources */,
+				2FFB6A841BE0ACDB008B02C3 /* GooeySlideMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
